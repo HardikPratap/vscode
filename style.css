@@ -72,8 +72,28 @@ li{
     align-items: center;
 
 }
+.first-container{
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
 
+}
 
+.content .info{
+    border: 2px;
+    border-radius: 10px;
+    border-color: #9ca3b4;
+    border-style: solid;
+    padding: 5px;
+    word-spacing: 4px;
+    margin-left: 30px;
+}
+
+.first-container .img{
+    width: 70%;
+}
 
 
 
