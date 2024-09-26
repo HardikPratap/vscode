@@ -141,3 +141,60 @@ h1{
 .first-container .image .img{
     width: 100%;
 }
+/* Bottom  */
+
+.container{
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+.text{
+
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.text h2{
+    font-weight: 600;
+    color: white;
+    font-size: 30px;
+}
+.text  p{
+    color: rgb(171, 175, 178);
+    justify-content: flex-end;
+    font-size: 15px;
+
+}
+.icons{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+    align-items: start;
+    margin-left: 90px;
+}
+img{
+    width: 50px;
+}
+span{
+    text-align: center;
+}
+.clm1,  .clm2, .clm3, .clm4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    justify-content: start;
+
+}
+
+
+
